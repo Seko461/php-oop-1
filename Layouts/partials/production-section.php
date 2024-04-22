@@ -12,9 +12,9 @@
                 </div>
                 <div class="card-body text-start">
                     <h6><span>Language: </span><?= $production->language ?></h6>
-              <?php foreach ($array_votes as $item) : ?>
-                    <h6><span>Vote: </span><?= $item?></h6>
-                  <?php endforeach; ?> 
+              
+                    <h6><span>Vote: </span><?= $item ?></h6>
+                
                   <div class="card-footer">
                      <h6>Genre: </h6>
                          <?php foreach ($production->genre as $genre) : ?>
