@@ -10,7 +10,7 @@
                 <div class="card-header  d-flex">
                     <h4 class="text-danger-emphasis text-capitalize mx-auto"><?= $production->title ?></h4>
                 </div>
-                <div class="card-body text-start">
+                <div class="card-body text-start px-3">
                     <h6><span>Language: </span><?= $production->language ?></h6>
               
                     <h6><span>Vote: </span><?= $item ?></h6>
