@@ -24,8 +24,8 @@ Aggiornate le informazioni stampate a schermo con il genere.
 # Giorno 2
 
 Aggiungete al lavoro di ieri le classi `Movie` e `TVSerie`
- La classe Movie gestisce due proprietà: profitti e durata.
- La classe TVSerie gestisce il numero di stagioni.
+ La classe Movie gestisce due proprietà: `profitti` e `durata`.
+ La classe TVSerie gestisce il `numero di stagioni`.
 
 P.S. Se vuoi aggiungere altre proprietà alle due classi, fai pure! Queste sono solo una base.
 
