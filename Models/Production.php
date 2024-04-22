@@ -41,15 +41,5 @@ class Production {
         return $this->title;
     }
 
-    //setters
-      public function setVote($vote) {
-        
-          $this->vote= $vote;
-    }
-
-    //methods
-
-    function generateVote(){
-        echo rand(1,10);
-    }
+    
 }
