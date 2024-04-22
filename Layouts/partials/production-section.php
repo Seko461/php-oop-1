@@ -15,6 +15,12 @@
               <?php foreach ($array_votes as $item) : ?>
                     <h6><span>Vote: </span><?= $item?></h6>
                   <?php endforeach; ?> 
+                  <div class="card-footer">
+                     <h6>Genre: </h6>
+                         <?php foreach ($production->genre as $genre) : ?>
+                             <span><?=  $genre ?></span>
+                         <?php endforeach; ?>
+                         </div>
                 </div>
             </div>
         </div>

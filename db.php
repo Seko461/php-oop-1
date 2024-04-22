@@ -1,15 +1,16 @@
 <?php
 
 require_once __DIR__ . '/Models/Production.php';
+require_once __DIR__ . '/Models/Genre.php';
 require_once __DIR__ . '/randomizer.php';
 
 
-
+$genre = new Genre('Action', 'Action-Fantasy');
 $productions = [
-    new Production('Matrix', 'en-US', $rand_vote ),
-    new Production('Cloud Atlas', 'en-US', $rand_vote),
-    new Production('La vita è bella', 'it-IT',  $rand_vote),
-    new Production('Last Emperor', 'en-EN',  $rand_vote),
+    new Production('Matrix', 'en-US', $rand_vote, $genre ),
+    new Production('Cloud Atlas', 'en-US', $rand_vote, $genre),
+    new Production('La vita è bella', 'it-IT',  $rand_vote, $genre),
+    new Production('Last Emperor', 'en-EN',  $rand_vote,$genre)
 ];
 
 $prod_length = count($productions);
