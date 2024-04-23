@@ -13,12 +13,12 @@ $productions = [
     new Production('Last Emperor', 'en-EN',  rand(1,10),$genre)
 ];
 
-$prod_length = count($productions);
+//$prod_length = count($productions);
 
 //var_dump($prod_length);
 
 
-
+/*
 $array_votes = [];//creo l'array dei numeri
    for($i = 0; $i < $prod_length; $i++){//inizio un ciclo da ripetere quanto la lunghezza dell'array
       $numero = rand(1,10);//genero un numero random tra 1 e 10
@@ -32,4 +32,4 @@ foreach($array_votes as $item){
 }
 
 
-
+*/
