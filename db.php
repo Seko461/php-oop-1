@@ -25,7 +25,7 @@ $array_votes = [];//creo l'array dei numeri
       $array_votes[] = $numero;//aggiungo il numero all'array
 }//fine ciclo for 
 
-//var_dump($array_votes);
+var_dump($array_votes);
 $item= null;
 foreach($array_votes as $item){
    return $item;
