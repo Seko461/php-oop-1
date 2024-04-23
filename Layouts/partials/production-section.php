@@ -13,7 +13,7 @@
                 <div class="card-body text-start px-3">
                     <h6><span>Language: </span><?= $production->language ?></h6>
               
-                    <h6><span>Vote: </span><?= $item ?></h6>
+                    <h6><span>Vote: </span><?= rand(1,10) ?></h6>
                 
                   <div class="card-footer">
                      <h6>Genre: </h6>
