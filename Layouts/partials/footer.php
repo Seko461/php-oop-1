@@ -1,6 +1,6 @@
  <footer>
     <!-- place footer here -->
-<div class="bg-dark d-flex flex-row justify-content-around py-3 fixed-bottom">
+<div class="bg-dark d-flex flex-row justify-content-around py-3">
     <ul class="list-unstyled text-white ">
         <li>Lorem.</li>
         <li>Suscipit!</li>

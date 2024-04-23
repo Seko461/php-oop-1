@@ -16,7 +16,7 @@ class TVSerie extends Production{
 
     //constructor
 
-    public function __construct(string $title, string $language, int $vote, Genre $genre,string $seasons ){
+    public function __construct(string $title, string $language, int $vote, Genre $genre,int $seasons ){
         
         parent::__construct($title, $language, $vote, $genre);
         

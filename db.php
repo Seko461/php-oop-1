@@ -3,6 +3,7 @@
 require_once __DIR__ . '/Models/Production.php';
 require_once __DIR__ . '/Models/Genre.php';
 require_once __DIR__ . '/Models/Movies.php';
+require_once __DIR__ . '/Models/TVSerie.php';
 require_once __DIR__ . '/randomizer.php';
 
 
@@ -15,11 +16,18 @@ $productions = [
 ];
 
 $movies = [
-    new Movie('Lord of the Ring', 'English', rand(1,10), $genre , '1.1 billion', rand(1,4)),
-    new Movie('Avatar', 'English',rand(1,10), $genre , '450 million', rand(1,4)),
-    new Movie('Indiana Jones', 'English', rand(1,10), $genre , '900 million', rand(1,4)),
-    new Movie('Interstellar', 'English', rand(1,10), $genre , '980 million', rand(1,4)),
+    new Movie('Lord of the Ring', 'en-US', rand(1,10), $genre , '1.1 billion', rand(1,4)),
+    new Movie('Avatar', 'en-US',rand(1,10), $genre , '450 million', rand(1,4)),
+    new Movie('Indiana Jones', 'en-US', rand(1,10), $genre , '900 million', rand(1,4)),
+    new Movie('Interstellar', 'en-US', rand(1,10), $genre , '980 million', rand(1,4)),
 
+];
+
+$series = [
+    new TVSerie('Dr. House', 'en-US', rand(1,10), $genre, rand(1,10)),
+    new TVSerie('Fall Out', 'en-US',rand(1,10), $genre, rand(1,10)),
+    new TVSerie('N.C.I.S.', 'en-US', rand(1,10), $genre, rand(1,10)),
+    new TVSerie('The Mentalist', 'en-US',rand(1,10), $genre, rand(1,10)),
 ];
 
 //$prod_length = count($productions);
